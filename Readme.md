@@ -1,0 +1,41 @@
+# mdx-cssx
+
+https://cssx.netlify.com
+
+CSSX is CSS in MDX files.
+
+## Why?
+
+Why not?
+
+## Usage
+
+```bash
+yarn add mdx-cssx
+```
+
+```bash
+npm i mdx-cssx
+```
+
+```js
+import ReactDOM from "react-dom"
+import React from "react"
+import App from "./App"
+import CSSX from "mdx-cssx"
+
+ReactDOM.render(
+  <CSSX>
+    <App />
+  </CSSX>,
+  document.getElementById("root")
+)
+```
+
+Under the hood I use the `mdx-provider` so you can pass more components to it if you wish to override more
+
+...
+
+## License
+
+MIT License, see the included [License.md](License.md) file.

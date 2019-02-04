@@ -1,0 +1,37 @@
+{
+  "name": "mdx-cssx",
+  "version": "0.0.3",
+  "description": "CSS in MDX",
+  "main": "dist/index.js",
+  "source": "index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "dist:modules": "cross-env BABEL_ENV=modules babel index.js --out-dir ./dist",
+    "build": "npm run dist:modules",
+    "format": "prettier --write '**/*.{js,css,md}'"
+  },
+  "keywords": [
+    "css",
+    "mdx",
+    "cssx"
+  ],
+  "author": "Sara Vieira",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@mdx-js/tag": "^0.16.8"
+  }
+}
