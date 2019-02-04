@@ -34,6 +34,41 @@ ReactDOM.render(
 
 Under the hood I use the `mdx-provider` so you can pass more components to it if you wish to override more
 
+
+Then use it in your MDX files like so:
+
+```md
+# CSSX
+
+CSSX is CSS in MDX
+
+it uses emotion under the hood to create the styles.
+
+## Why?
+
+Why not?
+
+```cssx
+body {
+    background: #d9d9d9;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+  color: blue;
+}
+
+pre {
+  text-align: left
+}
+```
+
+```
 ...
 
 ## License
