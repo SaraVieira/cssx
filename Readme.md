@@ -67,8 +67,6 @@ pre {
   text-align: left
 }
 ```
-
-```
 ...
 
 ## License
