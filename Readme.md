@@ -64,7 +64,7 @@ h1 {
 }
 
 pre {
-  text-align: left
+  text-align: left;
 }
 ```
 ...
