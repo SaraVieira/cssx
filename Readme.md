@@ -72,6 +72,9 @@ pre {
 The example included in the project uses Yarn workspaces to include the compiled file. 
 The `index.js` in the workspace is the content from the `dist` folder when you run the build command. 
 
+### See a local example
+A local example is included in the cssx-example folder
+
 ...
 
 ## License
