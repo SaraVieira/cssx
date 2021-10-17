@@ -1,0 +1,10 @@
+{
+  "name": "mdx-cssx-folder",
+  "version": "0.0.4",
+  "description": "",
+  "main": "index.js",
+  "private":true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

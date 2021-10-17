@@ -1,0 +1,12 @@
+{
+  "name": "workspace-mdx",
+  "version": "0.0.4",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "mdx-cssx": "file:./mdx-cssx-folder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -67,6 +67,11 @@ pre {
   text-align: left;
 }
 ```
+
+### Build note: 
+The example included in the project uses Yarn workspaces to include the compiled file. 
+The `index.js` in the workspace is the content from the `dist` folder when you run the build command. 
+
 ...
 
 ## License
