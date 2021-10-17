@@ -1,6 +1,6 @@
 import React from 'react'
-import { MDXProvider } from '@mdx-js/tag'
-import { Global, css } from '@emotion/core'
+import { MDXProvider } from '@mdx-js/react'
+import { Global, css } from '@emotion/react'
 
 const code = ({ className, children }) => {
   if (className === 'language-cssx') {

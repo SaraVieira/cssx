@@ -1,0 +1,23 @@
+{
+  "name": "cssx-example",
+  "version": "0.0.0",
+  "private":true,
+  "workspaces": ["workspace-mdx"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "@mdx-js/react":"^1.6.22",
+    "@mdx-js/mdx":"^1.6.22",
+    "vite-plugin-mdx":"^3.5.8",
+    "workspace-mdx":"0.0.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.4",
+    "vite": "^2.6.7"
+  }
+}
